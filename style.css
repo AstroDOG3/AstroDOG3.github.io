@@ -311,7 +311,7 @@ section{
 }
 
 .input-box input::placeholder{
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .input{
@@ -378,7 +378,7 @@ footer ul li a{
 .input form textarea {
     width: 100%;
     padding: 1.2rem 1.5rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     border: 2px solid black;
     border-radius: 1.5rem;
     font-family: 'Poppins', sans-serif;
@@ -387,7 +387,7 @@ footer ul li a{
 
 .input form button {
     padding: 1rem 2rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: white;
     border: none;
