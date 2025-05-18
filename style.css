@@ -354,6 +354,53 @@ footer ul li a{
     font-weight: 300;
     margin-top:2rem;
 }
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+}
+
+.input form {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 3rem;
+    background-color: #fff;
+    border-radius: 2rem;
+    border: 2px solid black;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.input form input,
+.input form textarea {
+    width: 100%;
+    padding: 1.2rem 1.5rem;
+    font-size: 1.1rem;
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    resize: none;
+}
+
+.input form button {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 3rem;
+    background: linear-gradient(to right, rgb(0,157,255), rgb(255,0,255));
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.input form button:hover {
+    transform: scale(1.05);
+}
+
 
 @media(max-width:1280px){
     header{
@@ -452,5 +499,22 @@ footer ul li a{
     }
     footer ul{
         gap: 1rem;
+    }
+
+    .contact-form button{
+        gap: 2rem;
+    }
+        .input form {
+        padding: 2rem 1rem;
+    }
+
+    .input form input,
+    .input form textarea {
+        padding: 0.8rem 1rem;
+        font-size: 1rem;
+    }
+
+    .input form button {
+        width: 100%;
     }
 }
